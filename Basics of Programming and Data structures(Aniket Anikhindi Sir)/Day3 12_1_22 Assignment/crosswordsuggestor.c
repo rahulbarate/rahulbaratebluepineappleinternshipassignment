@@ -193,6 +193,7 @@ int main()
 		printf("\nEnter all characters! ");
 		exit(0);
 	}
+	characters = strlwr(characters);
 
 	charPositions = (int *)calloc(totalchars, sizeof(int));
 	printf("\nEnter the positions of these characters in order(use spaces to separate) : ");
